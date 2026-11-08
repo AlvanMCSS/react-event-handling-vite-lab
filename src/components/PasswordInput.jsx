@@ -2,7 +2,7 @@
 
 function PasswordInput () {    // creates our react component
  function handleChange() {   // this is our event handler function
-    console.log ("Entering Password...");  // prints the messages on the browser console
+    console.log ("Entering password...");  // prints the messages on the browser console
  }
  return (
     <>

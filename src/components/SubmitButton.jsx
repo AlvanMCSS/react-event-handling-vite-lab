@@ -5,13 +5,13 @@ function SubmitButton () {
         console.log("Mouse Entering");
   }
     function handleLeave () {
-        console.log ("Mouse Leaving");
+        console.log ("Mouse leaving");
   }
 
     return (
      <>
         <button
-        onMouseEnter={hanldeEnter} // runs whenerver the button enters the button
+        onMouseEnter={handleEnter} // runs whenerver the button enters the button
         onMouseLeave={handleLeave} // runs whenever the mouse leaves the button
         >
             Submit Password
