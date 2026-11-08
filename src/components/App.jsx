@@ -10,7 +10,7 @@ function App() {
       <PasswordInput/>
       <SubmitButton/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
