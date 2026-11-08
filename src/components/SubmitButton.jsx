@@ -1,7 +1,7 @@
 // Code SubmitButton Component Here
 
 function SubmitButton () {
-    function hanldeEnter () {
+    function handleEnter () {
         console.log("Mouse Entering");
   }
     function handleLeave () {
@@ -12,7 +12,7 @@ function SubmitButton () {
      <>
         <button
         onMouseEnter={hanldeEnter} // runs whenerver the button enters the button
-        oneMouseLeave={handleLeave} // runs whenever the mouse leaves the button
+        onMouseLeave={handleLeave} // runs whenever the mouse leaves the button
         >
             Submit Password
         </button>
